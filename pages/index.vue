@@ -1,7 +1,7 @@
 <template>
   <div class="bg-site h-screen">
   
-    <navHeader />
+    <!-- <navHeader /> -->
 
 
     <div class="text-white mx-10 pt-10 font-bold text-3xl">

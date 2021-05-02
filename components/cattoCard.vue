@@ -6,7 +6,9 @@
       <span class="font-bold text-lg">
         A 100% css component library to implement on your website, without frameworks or javascript
       </span><br>
+      <nuxt-link to="/catto">
       <button class="border-red-400 z-20 relative btn-grad text-white px-4 py-2 mt-4 rounded-lg backdrop-opacity-50">Get Started</button>
+      </nuxt-link>
       <div class="align-right relative transform translate-x-14 -translate-y-12">
         <img src="/cattoLogo.png" class="h-52" alt="">
       </div>
@@ -22,3 +24,9 @@
 .btn-grad {transition: 0.5s; background-size: 200% auto; border-width: 1px;}
 .btn-grad:hover {background-position: right center; /* change the direction of the change here */}
 </style>
+
+<script>
+export default {
+  transition: 'slide-bottom'
+}
+</script>
