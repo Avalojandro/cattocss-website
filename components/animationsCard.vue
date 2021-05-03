@@ -6,7 +6,9 @@
       <span class="font-bold text-lg">
        The classic fast and easy to use css animation library for all your projects
       </span><br>
-      <button class="border-red-500 z-20 relative btn-grad3 text-white px-4 py-2 mt-4 rounded-lg backdrop-opacity-50">Get Started</button>
+      <nuxt-link to="animations">
+        <button class="border-red-500 z-20 relative btn-grad3 text-white px-4 py-2 mt-4 rounded-lg backdrop-opacity-50">Get Started</button>
+      </nuxt-link>
     </div>
 </template>
 

@@ -6,7 +6,9 @@
       <span class="font-bold text-lg">
         The Catto components made with tailwind css to integrate in your tailwind projects
       </span><br>
-      <button class="border-blue-400 z-20 relative btn-grad2 text-white px-4 py-2 mt-4 rounded-lg backdrop-opacity-50">Get Started</button>
+      <nuxt-link to="/softwind">
+        <button class="border-blue-400 z-20 relative btn-grad2 text-white px-4 py-2 mt-4 rounded-lg backdrop-opacity-50">Get Started</button>
+      </nuxt-link>
     </div>
 </template>
 

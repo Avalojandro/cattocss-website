@@ -1,5 +1,6 @@
 <template>
-  <div class="bg-site h-screen">
+  <div class="bg-site h-screen font-poppins">
+    
   
     <!-- <navHeader /> -->
 
