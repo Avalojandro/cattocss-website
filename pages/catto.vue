@@ -1,7 +1,7 @@
 <template>
 <div class="h-screen">
 
-    <div class="grid grid-cols-12 mx-10">
+    <div class="grid grid-cols-2 lg:grid-cols-12 mx-10">
         <div class="text-white grid grid-cols-1 col-span-2 gap-y-3 pt-5 font-poppins">
             <div class="cursor-pointer">Buttons</div>
             <div class="cursor-pointer">Badges</div>
@@ -26,6 +26,7 @@
             <h1 class="font-semibold text-xl text-primary">Link Buttons</h1>
                 <iframe class="rounded-lg py-3" width="100%" height="300" src="//jsfiddle.net/avalojandro/n13r67Lp/3/embedded/html,css/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
             <h1 class="font-semibold text-xl text-primary">Classic Buttons</h1>
+        
         </div>
 
     </div>
@@ -34,7 +35,13 @@
 </template>
 
 <script>
+
+
 export default {
-    transition: 'slide-bottom'
+    transition: 'slide-bottom',
+
+    components:{
+
+    }
 }
 </script>
